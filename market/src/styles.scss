@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import './partials/variables.scss';
+@import './partials/mixins.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  background-color: $bgLight;
+}
+
+main {
+  min-height: calc(100vh - 280px);
+}
+
+.section-wrapper {
+  @include section();
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

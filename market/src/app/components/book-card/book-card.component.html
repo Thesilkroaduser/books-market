@@ -1,0 +1,8 @@
+<div class="card-wrapper">
+  <img class="cover" src="{{ book.imgURL }}">
+  <hr class="card__separator">
+  <p class="card__title">{{ book.title }}</p>
+  <hr class="card__separator">
+  <p class="card__author">{{ book.author }}</p>
+  <button class="card__button">Buy<img *ngIf="!userService.isUserLogged()" class="icon" alt="padlock" src="../../assets/icons/padlock.png"></button>
+</div>

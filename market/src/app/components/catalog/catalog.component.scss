@@ -1,0 +1,7 @@
+@import '../../../partials/mixins.scss';
+
+.catalog-wrapper {
+  @include section();
+  @include container(row, center, center);
+  flex-wrap: wrap;
+}

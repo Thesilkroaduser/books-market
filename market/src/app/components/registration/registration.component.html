@@ -1,0 +1,17 @@
+<app-header></app-header>
+<main>
+  <section class="section-wrapper">
+    <form class="registration">
+      <div class="field">
+        <label class="label" for="login">Login</label>
+        <input [(ngModel)]="userService.login" class="text-area login" id="login" type="text" name="login">
+      </div>
+      <div class="field">
+        <label class="label" for="password">Password</label>
+        <input [(ngModel)]="userService.password" class="text-area password" id="password" type="password" name="pass">
+      </div>
+      <button class="log-in" type="submit" (click)="userService.onSubmit($event)">log in</button>
+    </form>
+  </section>
+</main>
+<app-footer></app-footer>

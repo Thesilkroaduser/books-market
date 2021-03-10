@@ -1,0 +1,13 @@
+@mixin container($direction, $align, $justify) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+  box-sizing: border-box;
+}
+
+@mixin section {
+  width: 60%;
+  margin: 80px auto;
+  box-sizing: border-box;
+}

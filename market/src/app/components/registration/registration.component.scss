@@ -1,0 +1,48 @@
+@import '../../../partials/mixins.scss';
+@import '../../../partials/variables.scss';
+
+.registration {
+  @include container(column, center, center);
+  border: solid 4px $mainOrange;
+  width: 40%;
+  margin: 90px auto;
+  padding: 40px;
+  border-radius: 5px;
+  background-color: $mainDark;
+  color: $textColorLight;
+}
+
+.label {
+  font-size: 1vw;
+  width: 120px;
+  text-transform: uppercase;
+  margin-right: 10px;
+  line-height: 0;
+  text-align: center;
+}
+
+.field {
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-area {
+  line-height: 23px;
+  width: 8vw;
+  background-color: white;
+}
+
+.log-in {
+  width: 90px;
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  border-radius: 4px;
+  outline: none;
+  background-color: $mainOrange;
+  border: none;
+  cursor: pointer;
+}
+

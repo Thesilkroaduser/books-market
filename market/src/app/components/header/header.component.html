@@ -1,0 +1,11 @@
+<header class="header-wrapper">
+  <h1 class="logo">[ book<span class="logo-postfix">zone ]</span></h1>
+  <nav class="menu">
+    <ul class="links">
+      <li class="links__item"><a class="link" routerLink="/about" routerLinkActive="active">About Us</a></li>
+      <li class="links__item"><a class="link" routerLink="/catalog" routerLinkActive="active">Catalog</a></li>
+      <li *ngIf="!userService.isUserLogged()" class="links__item"><a class="link" routerLink="/registration" routerLinkActive="active">Registration</a></li>
+      <li *ngIf="userService.isUserLogged()" class="links__item"><a class="link" routerLink="/basket" routerLinkActive="active">Basket</a></li>
+    </ul>
+  </nav>
+</header>

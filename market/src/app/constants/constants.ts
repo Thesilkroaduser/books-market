@@ -1,0 +1,17 @@
+export const booksInfo = [
+  {imgURL: 'https://images-na.ssl-images-amazon.com/images/I/51CgmsYS+2L._AC_SX184_.jpg', title: "Walk in My Combat Boots: True Stories from America's Bravest Warriors", author: 'James Patterson', amount: 15},
+  {imgURL: 'https://images-na.ssl-images-amazon.com/images/I/413L2B+A08L._SX328_BO1,204,203,200_.jpg', title: 'Lucky: How Joe Biden Barely Won the Presidency', author: 'Jonathan Allen', amount: 25},
+  {imgURL: 'https://images-na.ssl-images-amazon.com/images/I/51z6zN3PlrL._SX331_BO1,204,203,200_.jpg', title: "All Creatures Great and Small: The Warm and Joyful Memoirs of the World's Most Beloved Animal Doctor", author: 'James Herriot', amount: 31},
+  {imgURL: 'https://images-na.ssl-images-amazon.com/images/I/51qJ4+9+OvL._SX258_BO1,204,203,200_.jpg', title: 'Dolly Parton, Songteller: My Life in Lyrics', author: 'Dolly Parton', amount: 65},
+  {imgURL: 'https://images-na.ssl-images-amazon.com/images/I/51UHHO+p80L._SY344_BO1,204,203,200_.jpg', title: 'The Big Book of Serial Killers', author: 'Jack Rosewood', amount: 44},
+  {imgURL: 'https://images-na.ssl-images-amazon.com/images/I/51QQzUPRPzL._SX327_BO1,204,203,200_.jpg', title: 'Ticking Clock: Behind the Scenes at 60 Minutes', author: 'Ira Rosen', amount: 23},
+  {imgURL: 'https://images-na.ssl-images-amazon.com/images/I/41kb6427Y0L._SX331_BO1,204,203,200_.jpg', title: 'Limitless: The Power of Hope and Resilience to Overcome Circumstance', author: 'Mallory Weggemann', amount: 12},
+  {imgURL: 'https://images-na.ssl-images-amazon.com/images/I/51s+M6jHpfL._SX322_BO1,204,203,200_.jpg', title: 'Hidden Valley Road: Inside the Mind of an American Family', author: 'Robert Kolker', amount: 10},
+  {imgURL: 'https://images-na.ssl-images-amazon.com/images/I/41JIh4KMHRL._SX355_BO1,204,203,200_.jpg', title: 'The 48 Laws of Power', author: 'Robert Greene', amount: 35},
+  {imgURL: 'https://images-na.ssl-images-amazon.com/images/I/41DQO0UXalL._SX329_BO1,204,203,200_.jpg', title: 'Make Your Own Sunshine: Inspiring Stories of People Who Find Light in Dark Times', author: 'Janice Dean', amount: 50},
+  {imgURL: 'https://images-na.ssl-images-amazon.com/images/I/51bCiaJcnmL._SX322_BO1,204,203,200_.jpg', title: 'The Spy and the Traitor: The Greatest Espionage Story of the Cold War', author: 'Ben Macintyre', amount: 13},
+  {imgURL: 'https://images-na.ssl-images-amazon.com/images/I/41zp0BW9o1L._SX312_BO1,204,203,200_.jpg', title: 'The Gulag Archipelago', author: 'Aleksandr Solzhenitsyn', amount: 9},
+  {imgURL: 'https://images-na.ssl-images-amazon.com/images/I/512qZ+BCKEL._SY344_BO1,204,203,200_.jpg', title: "Mindhunter: Inside the FBI's Elite Serial Crime Unit", author: 'John E. Douglas', amount: 6},
+  {imgURL: 'https://images-na.ssl-images-amazon.com/images/I/41eHRYS+JTL._SY344_BO1,204,203,200_.jpg', title: 'The Fire Next Time', author: 'James Baldwin', amount: 12},
+  {imgURL: 'https://images-na.ssl-images-amazon.com/images/I/41V-tv+9WyL._SX322_BO1,204,203,200_.jpg', title: 'The Gift: 12 Lessons to Save Your Life', author: 'Dr. Edith Eva Eger', amount: 56},
+];
