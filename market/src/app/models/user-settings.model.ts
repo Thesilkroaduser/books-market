@@ -1,4 +1,4 @@
 export interface UserSettings {
-  login: string,
-  password: string
+  login: string;
+  password: string;
 }
